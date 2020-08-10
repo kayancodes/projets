@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Didot, serif, Calibri, serif;
+}
+
+
+/*DEBUT GRAND ECRAN */
+@media screen and (min-width:960px){
+    
+    h1{
+        font-size:2.5em;
+    }
+
+    p{
+    font-size:1em;
+    } 
+    
+    
+    
+    
+.wrapp{
+    padding:0% 10% 0% 10%;
+}
+
+
+
+/*-- DEBUT INTRO ---------------------------------------------------------------------*/  
+h1{
+    color:darkred;
+    margin: 3% 0 6% 0;
+}
+
+
+.haut{
+    border-bottom: 1px solid darkred;
+    padding-bottom: 1%;
+}
+/*-- FIN INTRO HEADER-----------------------------------------------------------------*/
+
+
+
+
+
+/*-- DEBUT VIDEO -------------------------------------------------------------------*/
+video{
+    position: relative;
+    max-width:100vw;
+    width: 53vw;
+    height:auto;
+/*    border: 1px solid black;*/
+    margin:3% 0 3% 0;    
+}
+/*-- FIN VIDEO -------------------------------------------------------------------*/    
+
+
+
+
+
+
+/*-- DEBUT PARAGRAPHE BAS----------------------------------------------------------------*/
+.bas{
+    border-top: 1px solid darkred;
+     padding-top: 1%;
+}
+/*-- FIN PARAGRAPHE BAS-------------------------------------------------------------------*/
+    
+    
+    
+}
+/*FIN GRAND ECRAN */
+
+
+
+/*DEBUT ECRAN MOYEN*/
+@media screen and (min-width:720px) and (max-width:959px){
+    
+    .wrapp{
+    padding:8%;
+}
+
+    h1{
+        font-size:3em;
+    }
+
+    p{
+    font-size:1.2em;
+    }
+/*-- DEBUT INTRO ---------------------------------------------------------------------*/  
+h1{
+    color:darkred;
+    margin: 0% 0 10% 0;
+    
+}
+
+
+.haut{
+    border-bottom: 1px solid darkred;
+    padding: 0 7% 2% 7%;
+    
+}
+/*-- FIN INTRO HEADER-----------------------------------------------------------------*/
+
+
+
+
+
+/*-- DEBUT VIDEO -------------------------------------------------------------------*/
+video{
+    position: relative;
+    max-width:100vw;
+    width: 70vw;
+    height:auto;
+/*    border: 1px solid black;*/
+    margin:10% 0 10% 0;    
+}
+/*-- FIN VIDEO -------------------------------------------------------------------*/    
+
+
+
+
+
+
+/*-- DEBUT PARAGRAPHE BAS----------------------------------------------------------------*/
+.bas{
+    border-top: 1px solid darkred;
+     padding: 2% 7% 12% 7%;
+}
+/*-- FIN PARAGRAPHE BAS-------------------------------------------------------------------*/
+    
+    
+    
+}
+/*FIN ECRAN MOYEN*/
+
+
+
+/*DEBUT PETIT ECRAN*/
+@media screen and (max-width:719px){
+    
+    .wrapp{
+    padding:5%;
+}
+
+    h1{
+        font-size:1.9em;
+        
+    }
+
+    p{
+    font-size:1em;
+    }
+/*-- DEBUT INTRO ---------------------------------------------------------------------*/  
+h1{
+    color:darkred;
+    margin: 0% 2% 14% 2%;
+    
+}
+
+
+.haut{
+    border-bottom: 1px solid darkred;
+    padding: 0 4% 2% 4%;
+    
+}
+/*-- FIN INTRO HEADER-----------------------------------------------------------------*/
+
+
+
+
+
+/*-- DEBUT VIDEO -------------------------------------------------------------------*/
+video{
+    position: relative;
+    max-width:100vw;
+    width: 90vw;
+    height:auto;
+/*    border: 1px solid black;*/
+    margin:7% 0 7% 0;    
+}
+/*-- FIN VIDEO -------------------------------------------------------------------*/    
+
+
+
+
+
+
+/*-- DEBUT PARAGRAPHE BAS----------------------------------------------------------------*/
+.bas{
+    border-top: 1px solid darkred;
+     padding: 5% 4% 12% 4%;
+}
+/*-- FIN PARAGRAPHE BAS-------------------------------------------------------------------*/
+    
+    
+    
+}
+/*DEBUT PETIT ECRAN*/
